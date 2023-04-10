@@ -1,0 +1,157 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="70582032-CA75-E6D1-9786-E110D6643F89" name="ORDEN">
+<createdBy>Ricardo</createdBy>
+<createdTime>2023-04-10 09:18:32 UTC</createdTime>
+<generatorID>D49A03BD-4FE3-ABB0-785A-F7DFBFF13916</generatorID>
+<ownerDesignName>PetShop_Modelo</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_orden" id="5956DC83-F31F-13AE-3548-7127979955E2">
+<createdBy>Ricardo</createdBy>
+<createdTime>2023-04-10 09:18:32 UTC</createdTime>
+<generatorID>1EAE9695-0F9E-01D8-D5BB-B5BE42AE3A7A</generatorID>
+<ownerDesignName>PetShop_Modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,7,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="estado" id="FF4021CA-72CE-088D-7F92-EF5ACF309634">
+<createdBy>Ricardo</createdBy>
+<createdTime>2023-04-10 09:18:32 UTC</createdTime>
+<generatorID>0341FDD6-041E-5756-FAFE-BF58A42675ED</generatorID>
+<ownerDesignName>PetShop_Modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<dataTypePrecision>1</dataTypePrecision>
+<ownDataTypeParameters>,1,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cod_postal" id="D8A6EBB9-B986-738F-8C4D-70857D8A08EF">
+<createdBy>Ricardo</createdBy>
+<createdTime>2023-04-10 09:18:32 UTC</createdTime>
+<generatorID>347C2C9D-BEA5-AC1D-E09E-551397E9B9CB</generatorID>
+<ownerDesignName>PetShop_Modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,7,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PAGO_id_pago" id="B3722941-8E3A-ED8D-51BC-B4EAD3A7C6C9">
+<createdBy>Ricardo</createdBy>
+<createdTime>2023-04-10 09:18:32 UTC</createdTime>
+<generatorID>B05F143C-D7EF-D466-90F5-D27AA6A8E21A</generatorID>
+<ownerDesignName>PetShop_Modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="09776B36-8E8E-F0D9-5C30-82F42DFCB041" referredColumn="B49A0DA9-71B8-CDE1-DFDB-902BE3012572"/>
+</associations>
+</Column>
+<Column name="PAGO_cantidad_prod" id="5BEF21B4-1967-1591-0EA9-2BD9AEA09ECD">
+<createdBy>Ricardo</createdBy>
+<createdTime>2023-04-10 09:18:32 UTC</createdTime>
+<generatorID>B1D12D3C-15B3-7619-AC0B-F6F0372DF4A1</generatorID>
+<ownerDesignName>PetShop_Modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="09776B36-8E8E-F0D9-5C30-82F42DFCB041" referredColumn="65D4D772-A91C-9D82-9DF9-178EB5BA7689"/>
+</associations>
+</Column>
+<Column name="PAGO_rut" id="EDEE65CD-4D86-8537-C46E-08E716C47681">
+<createdBy>Ricardo</createdBy>
+<createdTime>2023-04-10 09:18:32 UTC</createdTime>
+<generatorID>A288A741-131C-0828-EBFC-5B547B745EE8</generatorID>
+<ownerDesignName>PetShop_Modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="09776B36-8E8E-F0D9-5C30-82F42DFCB041" referredColumn="C3095B12-6165-6EDB-438F-2B05930528A4"/>
+</associations>
+</Column>
+<Column name="COMUNA_id_comuna" id="E229105D-6580-61B0-ED42-AF1BA2484049">
+<createdBy>Ricardo</createdBy>
+<createdTime>2023-04-10 09:18:32 UTC</createdTime>
+<generatorID>03994295-729B-C1C1-4E3F-B0C73F9CB210</generatorID>
+<ownerDesignName>PetShop_Modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FA518FF0-97FE-6D2F-F485-C5BFD2B80ADF" referredColumn="0A297AD1-A3E8-0721-C5DB-5BC2CC9D2271"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1E9B360B-5E51-4E8F-ADF9-2F132265E5B6" name="ORDEN_PK">
+<createdBy>Ricardo</createdBy>
+<createdTime>2023-04-10 09:18:32 UTC</createdTime>
+<generatorID>5B1D14DD-DE05-EC2A-47D5-A15C8C386D3C</generatorID>
+<ownerDesignName>PetShop_Modelo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5956DC83-F31F-13AE-3548-7127979955E2"/>
+<colUsage columnID="E229105D-6580-61B0-ED42-AF1BA2484049"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F1DD51C6-40A5-0395-BD28-7A040B5E1355" name="ORDEN__IDX">
+<createdBy>Ricardo</createdBy>
+<createdTime>2023-04-10 09:18:32 UTC</createdTime>
+<ownerDesignName>PetShop_Modelo</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>891B3D1E-540A-1EC7-E607-9BBB4927D3F3</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="B3722941-8E3A-ED8D-51BC-B4EAD3A7C6C9"/>
+<colUsage columnID="5BEF21B4-1967-1591-0EA9-2BD9AEA09ECD"/>
+<colUsage columnID="EDEE65CD-4D86-8537-C46E-08E716C47681"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C174CAFD-C8C6-D000-CB3F-72164F8997A4" name="ORDEN_COMUNA_FK">
+<createdBy>Ricardo</createdBy>
+<createdTime>2023-04-10 09:18:32 UTC</createdTime>
+<generatorID>357D37BA-6682-35DA-7977-8B5C46D10821</generatorID>
+<ownerDesignName>PetShop_Modelo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E229105D-6580-61B0-ED42-AF1BA2484049"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6C1A4421-9FD0-FCD7-9903-8E28A55D6C87" name="ORDEN_PAGO_FK">
+<createdBy>Ricardo</createdBy>
+<createdTime>2023-04-10 09:18:32 UTC</createdTime>
+<generatorID>891B3D1E-540A-1EC7-E607-9BBB4927D3F3</generatorID>
+<ownerDesignName>PetShop_Modelo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B3722941-8E3A-ED8D-51BC-B4EAD3A7C6C9"/>
+<colUsage columnID="5BEF21B4-1967-1591-0EA9-2BD9AEA09ECD"/>
+<colUsage columnID="EDEE65CD-4D86-8537-C46E-08E716C47681"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,106 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7E3873E0-DED0-5821-0B3D-C47E87358912" name="SUSCRIPCION">
+<createdBy>Ricardo</createdBy>
+<createdTime>2023-04-10 09:18:32 UTC</createdTime>
+<generatorID>4D764AEA-33A8-CE65-DFA1-A0DF694D1C58</generatorID>
+<ownerDesignName>PetShop_Modelo</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_sub" id="3D0247F1-1E47-C885-CDDD-5F5C8055DCAD">
+<createdBy>Ricardo</createdBy>
+<createdTime>2023-04-10 09:18:32 UTC</createdTime>
+<generatorID>B2838284-4042-E7A0-7E03-2D43B82B20B6</generatorID>
+<ownerDesignName>PetShop_Modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha" id="50F3A63E-7295-392D-492E-7D4257238C13">
+<createdBy>Ricardo</createdBy>
+<createdTime>2023-04-10 09:18:32 UTC</createdTime>
+<generatorID>F40E0D7C-7475-EA67-D788-A6C310E81DF1</generatorID>
+<ownerDesignName>PetShop_Modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="monto" id="22FA7C86-5999-244D-C367-5953491DB31E">
+<createdBy>Ricardo</createdBy>
+<createdTime>2023-04-10 09:18:32 UTC</createdTime>
+<generatorID>D7073A07-8BB0-1473-6BEB-AC9C5087AB6F</generatorID>
+<ownerDesignName>PetShop_Modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,7,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="estado" id="D502CA12-34C8-3E73-D0FD-AA4C42C84EB5">
+<createdBy>Ricardo</createdBy>
+<createdTime>2023-04-10 09:18:32 UTC</createdTime>
+<generatorID>8722CAB3-E90C-2662-3470-F9BC1D33489D</generatorID>
+<ownerDesignName>PetShop_Modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<dataTypePrecision>1</dataTypePrecision>
+<ownDataTypeParameters>,1,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="USUARIO_rut" id="0C129604-A9AD-7234-DE62-AFDF5DDEC6C4">
+<createdBy>Ricardo</createdBy>
+<createdTime>2023-04-10 09:18:32 UTC</createdTime>
+<generatorID>9E605A05-DC89-D4E2-4C14-385C38F9D7BD</generatorID>
+<ownerDesignName>PetShop_Modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="246CA194-E0C3-CCF4-1BBF-338950BCE346" referredColumn="04EBF5BB-9AE6-F03F-8963-F65B4F1DAC6E"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E0537B36-8DC4-DB53-464B-DDEA05D1E52E" name="SUSCRIPCION_PK">
+<createdBy>Ricardo</createdBy>
+<createdTime>2023-04-10 09:18:32 UTC</createdTime>
+<generatorID>7954A4A4-49F9-FAFA-0E85-81265E419981</generatorID>
+<ownerDesignName>PetShop_Modelo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3D0247F1-1E47-C885-CDDD-5F5C8055DCAD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6680C475-527D-257B-C81F-BECA22FC7FBE" name="SUSCRIPCION__IDX">
+<createdBy>Ricardo</createdBy>
+<createdTime>2023-04-10 09:18:32 UTC</createdTime>
+<ownerDesignName>PetShop_Modelo</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>C8806FC1-A7E6-262F-E72A-10BCBC7150B8</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="0C129604-A9AD-7234-DE62-AFDF5DDEC6C4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="35C23F67-0561-AB4D-03A4-97B380A271DB" name="SUSCRIPCION_USUARIO_FK">
+<createdBy>Ricardo</createdBy>
+<createdTime>2023-04-10 09:18:32 UTC</createdTime>
+<generatorID>C8806FC1-A7E6-262F-E72A-10BCBC7150B8</generatorID>
+<ownerDesignName>PetShop_Modelo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0C129604-A9AD-7234-DE62-AFDF5DDEC6C4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

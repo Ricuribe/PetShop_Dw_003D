@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="210A91E5-02C8-D50C-D5EB-CC4620CEA658" name="PAGO">
+<createdBy>Ricardo</createdBy>
+<createdTime>2023-04-10 09:18:32 UTC</createdTime>
+<generatorID>C3E07351-766B-717E-12FF-F3BCE663F37D</generatorID>
+<ownerDesignName>PetShop_Modelo</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_pago" id="B49A0DA9-71B8-CDE1-DFDB-902BE3012572">
+<createdBy>Ricardo</createdBy>
+<createdTime>2023-04-10 09:18:32 UTC</createdTime>
+<generatorID>21989A67-A51A-AFBC-662F-0DD22604C1AD</generatorID>
+<ownerDesignName>PetShop_Modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,7,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cantidad_prod" id="65D4D772-A91C-9D82-9DF9-178EB5BA7689">
+<createdBy>Ricardo</createdBy>
+<createdTime>2023-04-10 09:18:32 UTC</createdTime>
+<generatorID>62DC88F0-62AA-5319-3BB3-DC98F7536186</generatorID>
+<ownerDesignName>PetShop_Modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tipo_pago" id="BAFF0F14-30E6-F8B3-59D6-1019889874FB">
+<createdBy>Ricardo</createdBy>
+<createdTime>2023-04-10 09:18:32 UTC</createdTime>
+<generatorID>AD1E87C7-B172-F847-E470-85633FDA0EF2</generatorID>
+<ownerDesignName>PetShop_Modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="desc" id="5E52EC14-D5A0-6BE8-43B2-7A46EF1DFC1F">
+<createdBy>Ricardo</createdBy>
+<createdTime>2023-04-10 09:18:32 UTC</createdTime>
+<generatorID>9E1795EA-11B2-41A4-0802-EC8E1966BBDF</generatorID>
+<ownerDesignName>PetShop_Modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<dataTypePrecision>1</dataTypePrecision>
+<ownDataTypeParameters>,1,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="USUARIO_rut" id="C3095B12-6165-6EDB-438F-2B05930528A4">
+<createdBy>Ricardo</createdBy>
+<createdTime>2023-04-10 09:18:32 UTC</createdTime>
+<generatorID>436EF100-E2F5-EABF-D583-30153D97FB53</generatorID>
+<ownerDesignName>PetShop_Modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CE9A6FD3-56EF-E42D-BA86-93EA05C288D1" referredColumn="04EBF5BB-9AE6-F03F-8963-F65B4F1DAC6E"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4A48F730-94B3-A614-09B4-F1EF5B1F9188" name="PAGO_PK">
+<createdBy>Ricardo</createdBy>
+<createdTime>2023-04-10 09:18:32 UTC</createdTime>
+<generatorID>2E391DAA-E1F8-FE54-8D4D-714594ADF772</generatorID>
+<ownerDesignName>PetShop_Modelo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B49A0DA9-71B8-CDE1-DFDB-902BE3012572"/>
+<colUsage columnID="65D4D772-A91C-9D82-9DF9-178EB5BA7689"/>
+<colUsage columnID="C3095B12-6165-6EDB-438F-2B05930528A4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FAFA3205-2BB0-1181-4896-25D0F346974E" name="PAGO_USUARIO_FK">
+<createdBy>Ricardo</createdBy>
+<createdTime>2023-04-10 09:18:32 UTC</createdTime>
+<generatorID>1D58B063-752B-F61F-7272-6497690CF41E</generatorID>
+<ownerDesignName>PetShop_Modelo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C3095B12-6165-6EDB-438F-2B05930528A4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

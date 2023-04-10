@@ -1,0 +1,94 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4D764AEA-33A8-CE65-DFA1-A0DF694D1C58" name="SUSCRIPCION">
+<createdBy>Ricardo</createdBy>
+<createdTime>2023-04-06 17:22:03 UTC</createdTime>
+<ownerDesignName>PetShop_Modelo</ownerDesignName>
+<engineerTo>
+<item key="DA716EB0-A89E-F45D-564F-13CE54F196C2" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_sub" id="B2838284-4042-E7A0-7E03-2D43B82B20B6">
+<createdBy>Ricardo</createdBy>
+<createdTime>2023-04-07 02:19:41 UTC</createdTime>
+<ownerDesignName>PetShop_Modelo</ownerDesignName>
+<engineerTo>
+<item key="DA716EB0-A89E-F45D-564F-13CE54F196C2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha" id="F40E0D7C-7475-EA67-D788-A6C310E81DF1">
+<createdBy>Ricardo</createdBy>
+<createdTime>2023-04-07 02:20:12 UTC</createdTime>
+<ownerDesignName>PetShop_Modelo</ownerDesignName>
+<engineerTo>
+<item key="DA716EB0-A89E-F45D-564F-13CE54F196C2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="monto" id="D7073A07-8BB0-1473-6BEB-AC9C5087AB6F">
+<createdBy>Ricardo</createdBy>
+<createdTime>2023-04-07 02:22:40 UTC</createdTime>
+<ownerDesignName>PetShop_Modelo</ownerDesignName>
+<engineerTo>
+<item key="DA716EB0-A89E-F45D-564F-13CE54F196C2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,7,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="estado" id="8722CAB3-E90C-2662-3470-F9BC1D33489D">
+<createdBy>Ricardo</createdBy>
+<createdTime>2023-04-07 02:23:55 UTC</createdTime>
+<ownerDesignName>PetShop_Modelo</ownerDesignName>
+<engineerTo>
+<item key="DA716EB0-A89E-F45D-564F-13CE54F196C2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<dataTypePrecision>1</dataTypePrecision>
+<ownDataTypeParameters>,1,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="rut" id="9E605A05-DC89-D4E2-4C14-385C38F9D7BD">
+<createdBy>Ricardo</createdBy>
+<createdTime>2023-04-07 04:08:29 UTC</createdTime>
+<generatorID>C8806FC1-A7E6-262F-E72A-10BCBC7150B8</generatorID>
+<ownerDesignName>PetShop_Modelo</ownerDesignName>
+<engineerTo>
+<item key="DA716EB0-A89E-F45D-564F-13CE54F196C2" value="true"/>
+</engineerTo>
+<referedAttribute>6057A477-C534-092E-CBE9-AD9560C47955</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="7954A4A4-49F9-FAFA-0E85-81265E419981" name="SUSCRIPCION PK">
+<createdBy>Ricardo</createdBy>
+<createdTime>2023-04-07 02:20:10 UTC</createdTime>
+<ownerDesignName>PetShop_Modelo</ownerDesignName>
+<engineerTo>
+<item key="DA716EB0-A89E-F45D-564F-13CE54F196C2" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B2838284-4042-E7A0-7E03-2D43B82B20B6</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

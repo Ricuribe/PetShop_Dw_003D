@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="user-pay" directorySegmentName="seg_0" id="1D58B063-752B-F61F-7272-6497690CF41E">
+<createdBy>Ricardo</createdBy>
+<createdTime>2023-04-07 04:09:41 UTC</createdTime>
+<ownerDesignName>PetShop_Modelo</ownerDesignName>
+<engineerTo>
+<item key="DA716EB0-A89E-F45D-564F-13CE54F196C2" value="true"/>
+</engineerTo>
+<sourcePk>153D2B98-EC47-8233-14A1-B09562E0BE1B</sourcePk>
+<identifying>true</identifying>
+<nameOnSource>realiza</nameOnSource>
+<nameOnTarget>pertenece</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>C0671C81-1901-28E7-AA6F-1ABECF67C3FC</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>C3E07351-766B-717E-12FF-F3BCE663F37D</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

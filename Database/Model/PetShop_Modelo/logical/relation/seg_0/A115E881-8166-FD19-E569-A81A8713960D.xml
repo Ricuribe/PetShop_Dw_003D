@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="reg-com" directorySegmentName="seg_0" id="A115E881-8166-FD19-E569-A81A8713960D">
+<createdBy>Ricardo</createdBy>
+<createdTime>2023-04-07 04:29:05 UTC</createdTime>
+<ownerDesignName>PetShop_Modelo</ownerDesignName>
+<engineerTo>
+<item key="DA716EB0-A89E-F45D-564F-13CE54F196C2" value="true"/>
+</engineerTo>
+<sourcePk>6FFD84D0-3588-6F73-9E27-899C6EF2B3B1</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>tiene</nameOnSource>
+<nameOnTarget>corresponde</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>CB7A41E4-2BC3-B184-FDBD-1EA8B937A8E8</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>88FE5BA4-10C4-2EC8-71C5-78BD8293F80F</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

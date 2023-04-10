@@ -1,0 +1,48 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FB3DF4AB-120D-2909-D4AE-D74C2DA0BFCD" name="REGION">
+<createdBy>Ricardo</createdBy>
+<createdTime>2023-04-10 09:18:32 UTC</createdTime>
+<generatorID>CB7A41E4-2BC3-B184-FDBD-1EA8B937A8E8</generatorID>
+<ownerDesignName>PetShop_Modelo</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_region" id="FE442439-68CB-FF07-9CF5-35AF9A46717C">
+<createdBy>Ricardo</createdBy>
+<createdTime>2023-04-10 09:18:32 UTC</createdTime>
+<generatorID>9309D726-F7D7-C2B7-040C-ADFE18C6F746</generatorID>
+<ownerDesignName>PetShop_Modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="91F5965A-3FB3-3E18-FB16-432A24E7B3C1">
+<createdBy>Ricardo</createdBy>
+<createdTime>2023-04-10 09:18:32 UTC</createdTime>
+<generatorID>BFC28005-C3BA-7983-FB1E-EE71EC7DCB5A</generatorID>
+<ownerDesignName>PetShop_Modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5727CBE3-1EC2-E791-EDCD-4D4FA708829C" name="REGION_PK">
+<createdBy>Ricardo</createdBy>
+<createdTime>2023-04-10 09:18:32 UTC</createdTime>
+<generatorID>6FFD84D0-3588-6F73-9E27-899C6EF2B3B1</generatorID>
+<ownerDesignName>PetShop_Modelo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FE442439-68CB-FF07-9CF5-35AF9A46717C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

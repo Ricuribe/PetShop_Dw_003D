@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="88FE5BA4-10C4-2EC8-71C5-78BD8293F80F" name="COMUNA">
+<createdBy>Ricardo</createdBy>
+<createdTime>2023-04-07 02:25:06 UTC</createdTime>
+<ownerDesignName>PetShop_Modelo</ownerDesignName>
+<engineerTo>
+<item key="DA716EB0-A89E-F45D-564F-13CE54F196C2" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_comuna" id="C135F185-E708-7849-4B56-C3B1BBDC18FB">
+<createdBy>Ricardo</createdBy>
+<createdTime>2023-04-07 02:25:13 UTC</createdTime>
+<ownerDesignName>PetShop_Modelo</ownerDesignName>
+<engineerTo>
+<item key="DA716EB0-A89E-F45D-564F-13CE54F196C2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="AD6201EF-BA3C-1F33-3690-ABB02E7F4342">
+<createdBy>Ricardo</createdBy>
+<createdTime>2023-04-07 02:25:29 UTC</createdTime>
+<ownerDesignName>PetShop_Modelo</ownerDesignName>
+<engineerTo>
+<item key="DA716EB0-A89E-F45D-564F-13CE54F196C2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_region" id="5DDEF819-B08A-C932-8C65-1345832BEB0F">
+<createdBy>Ricardo</createdBy>
+<createdTime>2023-04-07 04:29:05 UTC</createdTime>
+<generatorID>A115E881-8166-FD19-E569-A81A8713960D</generatorID>
+<ownerDesignName>PetShop_Modelo</ownerDesignName>
+<engineerTo>
+<item key="DA716EB0-A89E-F45D-564F-13CE54F196C2" value="true"/>
+</engineerTo>
+<referedAttribute>9309D726-F7D7-C2B7-040C-ADFE18C6F746</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="84E51860-1CD5-2F24-77F3-5875BE64120B" name="COMUNA PK">
+<createdBy>Ricardo</createdBy>
+<createdTime>2023-04-07 02:25:28 UTC</createdTime>
+<ownerDesignName>PetShop_Modelo</ownerDesignName>
+<engineerTo>
+<item key="DA716EB0-A89E-F45D-564F-13CE54F196C2" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C135F185-E708-7849-4B56-C3B1BBDC18FB</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

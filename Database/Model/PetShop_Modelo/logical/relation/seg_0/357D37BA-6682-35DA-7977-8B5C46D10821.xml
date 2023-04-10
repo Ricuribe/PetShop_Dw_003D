@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="com-order" directorySegmentName="seg_0" id="357D37BA-6682-35DA-7977-8B5C46D10821">
+<createdBy>Ricardo</createdBy>
+<createdTime>2023-04-07 04:31:14 UTC</createdTime>
+<ownerDesignName>PetShop_Modelo</ownerDesignName>
+<engineerTo>
+<item key="DA716EB0-A89E-F45D-564F-13CE54F196C2" value="true"/>
+</engineerTo>
+<sourcePk>84E51860-1CD5-2F24-77F3-5875BE64120B</sourcePk>
+<identifying>true</identifying>
+<nameOnSource>compone</nameOnSource>
+<nameOnTarget>tiene</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>88FE5BA4-10C4-2EC8-71C5-78BD8293F80F</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>D49A03BD-4FE3-ABB0-785A-F7DFBFF13916</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

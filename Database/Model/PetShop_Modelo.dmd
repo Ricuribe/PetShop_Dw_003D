@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="PetShop_Modelo" id="2D30EBE4-D20E-F302-2D3E-B5A19AD2C96C" version="3.5">
+<createdBy>Ricardo</createdBy>
+<createdTime>2023-04-06 16:50:19 UTC</createdTime>
+<ownerDesignName>BD</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>2D30EBE4-D20E-F302-2D3E-B5A19AD2C96C</designId>
+</OSDM_Design>

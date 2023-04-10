@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E0D0070A-CCCF-E07B-AB4E-CA6C01E3FB2D" name="prod-order">
+<createdBy>Ricardo</createdBy>
+<createdTime>2023-04-10 09:18:32 UTC</createdTime>
+<ownerDesignName>PetShop_Modelo</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PRODUCTO_id_producto" id="23802239-EBE5-980E-9505-E5C484B56BE8">
+<createdBy>Ricardo</createdBy>
+<createdTime>2023-04-10 09:18:32 UTC</createdTime>
+<ownerDesignName>PetShop_Modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7835480A-CB3C-E34A-426F-3E7EFBE4E244" referredColumn="AF1158AA-9B1C-1E59-8DD7-268F56A7C669"/>
+</associations>
+</Column>
+<Column name="ORDEN_id_orden" id="55A17AA5-8F21-9169-9B54-E486748E12E1">
+<createdBy>Ricardo</createdBy>
+<createdTime>2023-04-10 09:18:32 UTC</createdTime>
+<ownerDesignName>PetShop_Modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EAD4F1EE-2731-D192-2649-9FE1839B3723" referredColumn="5956DC83-F31F-13AE-3548-7127979955E2"/>
+</associations>
+</Column>
+<Column name="ORDEN_COMUNA_id_comuna" id="2F865ABF-00B2-471A-94A9-2D6B275E34BD">
+<createdBy>Ricardo</createdBy>
+<createdTime>2023-04-10 09:18:32 UTC</createdTime>
+<ownerDesignName>PetShop_Modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EAD4F1EE-2731-D192-2649-9FE1839B3723" referredColumn="E229105D-6580-61B0-ED42-AF1BA2484049"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AC58242C-FF20-3BB5-BBE3-DB56B1B261F4" name="prod-order_PK">
+<createdBy>Ricardo</createdBy>
+<createdTime>2023-04-10 09:18:32 UTC</createdTime>
+<ownerDesignName>PetShop_Modelo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="23802239-EBE5-980E-9505-E5C484B56BE8"/>
+<colUsage columnID="55A17AA5-8F21-9169-9B54-E486748E12E1"/>
+<colUsage columnID="2F865ABF-00B2-471A-94A9-2D6B275E34BD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="95652C1A-845E-C359-89E4-65125BA3561D" name="prod-order_PRODUCTO_FK">
+<createdBy>Ricardo</createdBy>
+<createdTime>2023-04-10 09:18:32 UTC</createdTime>
+<generatorID>3F13F333-370A-A632-F797-F66125103FA8</generatorID>
+<ownerDesignName>PetShop_Modelo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="23802239-EBE5-980E-9505-E5C484B56BE8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D92AED8E-F147-16C8-1320-9A0C522BF047" name="prod-order_ORDEN_FK">
+<createdBy>Ricardo</createdBy>
+<createdTime>2023-04-10 09:18:32 UTC</createdTime>
+<generatorID>3F13F333-370A-A632-F797-F66125103FA8</generatorID>
+<ownerDesignName>PetShop_Modelo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="55A17AA5-8F21-9169-9B54-E486748E12E1"/>
+<colUsage columnID="2F865ABF-00B2-471A-94A9-2D6B275E34BD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

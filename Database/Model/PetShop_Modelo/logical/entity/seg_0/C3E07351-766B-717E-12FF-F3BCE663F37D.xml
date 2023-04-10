@@ -1,0 +1,97 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C3E07351-766B-717E-12FF-F3BCE663F37D" name="PAGO">
+<createdBy>Ricardo</createdBy>
+<createdTime>2023-04-07 02:32:16 UTC</createdTime>
+<ownerDesignName>PetShop_Modelo</ownerDesignName>
+<engineerTo>
+<item key="DA716EB0-A89E-F45D-564F-13CE54F196C2" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_pago" id="21989A67-A51A-AFBC-662F-0DD22604C1AD">
+<createdBy>Ricardo</createdBy>
+<createdTime>2023-04-07 02:32:22 UTC</createdTime>
+<ownerDesignName>PetShop_Modelo</ownerDesignName>
+<engineerTo>
+<item key="DA716EB0-A89E-F45D-564F-13CE54F196C2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,7,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cantidad_prod" id="62DC88F0-62AA-5319-3BB3-DC98F7536186">
+<createdBy>Ricardo</createdBy>
+<createdTime>2023-04-07 02:32:53 UTC</createdTime>
+<ownerDesignName>PetShop_Modelo</ownerDesignName>
+<engineerTo>
+<item key="DA716EB0-A89E-F45D-564F-13CE54F196C2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tipo_pago" id="AD1E87C7-B172-F847-E470-85633FDA0EF2">
+<createdBy>Ricardo</createdBy>
+<createdTime>2023-04-07 02:34:28 UTC</createdTime>
+<ownerDesignName>PetShop_Modelo</ownerDesignName>
+<engineerTo>
+<item key="DA716EB0-A89E-F45D-564F-13CE54F196C2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="desc" id="9E1795EA-11B2-41A4-0802-EC8E1966BBDF">
+<createdBy>Ricardo</createdBy>
+<createdTime>2023-04-07 02:38:02 UTC</createdTime>
+<ownerDesignName>PetShop_Modelo</ownerDesignName>
+<engineerTo>
+<item key="DA716EB0-A89E-F45D-564F-13CE54F196C2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<dataTypePrecision>1</dataTypePrecision>
+<ownDataTypeParameters>,1,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="rut" id="436EF100-E2F5-EABF-D583-30153D97FB53">
+<createdBy>Ricardo</createdBy>
+<createdTime>2023-04-07 04:09:41 UTC</createdTime>
+<generatorID>1D58B063-752B-F61F-7272-6497690CF41E</generatorID>
+<ownerDesignName>PetShop_Modelo</ownerDesignName>
+<engineerTo>
+<item key="DA716EB0-A89E-F45D-564F-13CE54F196C2" value="true"/>
+</engineerTo>
+<referedAttribute>6057A477-C534-092E-CBE9-AD9560C47955</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="2E391DAA-E1F8-FE54-8D4D-714594ADF772" name="PAGO PK">
+<createdBy>Ricardo</createdBy>
+<createdTime>2023-04-07 02:32:52 UTC</createdTime>
+<ownerDesignName>PetShop_Modelo</ownerDesignName>
+<engineerTo>
+<item key="DA716EB0-A89E-F45D-564F-13CE54F196C2" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>21989A67-A51A-AFBC-662F-0DD22604C1AD</attributeRef>
+<attributeRef>62DC88F0-62AA-5319-3BB3-DC98F7536186</attributeRef>
+<attributeRef>436EF100-E2F5-EABF-D583-30153D97FB53</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
