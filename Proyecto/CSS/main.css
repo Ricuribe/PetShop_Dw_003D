@@ -1,12 +1,13 @@
 
 .backgrnd{
     align-items: center;
-    background: linear-gradient(90deg, #f9dc5c,10%,#e5ff93,90%,#c1dce0);
+    background: linear-gradient(90deg, #333333,85%,#34e4ac);
+    /* background: linear-gradient(90deg, #f9dc5c,10%,#e5ff93,90%,#c1dce0); */
     position: absolute;
 }
 .bgl{
     background-image: url("../img/petMosaic.png");
     background-repeat: repeat;
     position: relative;
-    background-size: 5%;
+    background-size: 7%;
 }

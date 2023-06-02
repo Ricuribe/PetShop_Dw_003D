@@ -12,59 +12,71 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
     crossorigin="anonymous"></script>
-
+  <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+  <script src="JS/monedaProd.js"></script>
 </head>
 
 <body>
 
-  <div class="container-fluid">
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">
-          <img src="img/logo-03.jpg" alt="No disponible" width="35px" height="35px">
-          Petshop
-        </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="formRegistro.html">Adopcion</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                aria-expanded="false">
-                Productos
-              </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item"
-                    href="alimentos.html">Alimentos</a></li>
-                <li><a class="dropdown-item" href="jaulas.html">Jaulas</a></li>
-                <li>
-                  <hr class="dropdown-divider">
-                </li>
-                <li><a class="dropdown-item" href="accesorios.html">Accesorios</a></li>
-              </ul>
-              <li class="nav-item">
-                <a class="nav-link" href="Registro-sesion.html">Registrame</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="signin.html">Iniciar sesión</a>
-              </li>
-          </ul>
-          <form class="d-flex" role="Buscar">
-            <input class="form-control me-2" type="Buscar" placeholder="Buscar" aria-label="Buscar">
-            <button class="btn btn-outline-success" type="submit">Buscar</button>
-          </form>
-        </div>
-      </div>
-    </nav>
-
+  <div class="container-fluid backgrnd">
+    <div class="bgl">
+    
+      <div class="container">
+          <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+              <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                  <img src="img/logo-03.jpg" alt="Logo" width="35px" height="35px">
+                  Petshop
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                    </li>
+                    <!-- redacted -->
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      $$$
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><button class="dropdown-item clpBtn">CLP</button></li>
+                      <li><button class="dropdown-item dolarBtn">USD</button></li>
+                    </ul>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Productos
+                      </a>
+                      <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="alimentos.html">Alimentos</a></li>
+                        <li><a class="dropdown-item" href="jaulas.html">Jaulas</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="accesorios.html">Accesorios</a></li>
+                      </ul>
+                      <li class="nav-item">
+                        <a class="nav-link" href="registrarse.html">Registrame</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="signin.html">Iniciar sesión</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="Registro-producto.html">Agregar Producto</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="sub.html">Suscribete!</a>
+                      </li>
+                    </li>
+                  </ul>
+                  <form class="d-flex" role="Buscar">
+                    <input class="form-control me-2" type="Buscar" placeholder="Buscar" aria-label="Buscar">
+                    <button class="btn btn-outline-success" type="submit">Buscar</button>
+                  </form>
+                </div>
+              </div>
+            </nav>
+          
+  
     <div class="container" style="padding-top: 12px;">
       <div class="row">
 
@@ -93,7 +105,7 @@
 
         <div class="col-md-6 order-md-2 mt-5">
           <h2>Collar Puas Para Perros Eco Cuero Rockero Puntas Cuernos.</h2>
-          <h2>$8.990</h2>
+          <label class="h2">$</label><label class="h2" id="crdPrice">8990</label>
           <p></p>
           <p></p>
           <p class="lead">

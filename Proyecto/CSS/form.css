@@ -21,3 +21,8 @@ p{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: aliceblue;   
 }
+
+.bcl{
+    box-sizing: content-box;
+    border-radius: 1%;
+}

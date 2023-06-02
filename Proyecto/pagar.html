@@ -8,51 +8,69 @@
   <link rel="icon" type="image/jpg" href="img/logo-03.jpg">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+  <script src="JS/verificarDatos.js"></script>
 </head>
 <body>
 
-  <div class="container">
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <div class="container-fluid">
-          <a class="navbar-brand" href="#">
-            <img src="img/logo-03.jpg" alt="No disponible" width="35px" height="35px">
-            Petshop
-          </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="Index.html">Inicio</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="FormRegistro.html">Adopcion</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Productos
+  <div class="container-fluid backgrnd">
+    <div class="bgl">
+    
+      <div class="container">
+          <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+              <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                  <img src="img/logo-03.jpg" alt="Logo" width="35px" height="35px">
+                  Petshop
                 </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="alimentos.html">Alimentos</a></li>
-                  <li><a class="dropdown-item" href="jaulas.html">Jaulas</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="accesorios.html">Accesorios</a></li>
-                </ul>
-                <li class="nav-item">
-                  <a class="nav-link" href="FormRegistro.html">Registrame</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="signin.html">Iniciar sesión</a>
-                </li>
-            </ul>
-            <form class="d-flex" role="Buscar">
-              <input class="form-control me-2" type="Buscar" placeholder="Buscar" aria-label="Buscar">
-              <button class="btn btn-outline-success" type="submit">Buscar</button>
-            </form>
-          </div>
-      </div>
-    </nav>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                    </li>
+                    <!-- redacted -->
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      $$$
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><button class="dropdown-item clpBtn">CLP</button></li>
+                      <li><button class="dropdown-item dolarBtn">USD</button></li>
+                    </ul>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Productos
+                      </a>
+                      <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="alimentos.html">Alimentos</a></li>
+                        <li><a class="dropdown-item" href="jaulas.html">Jaulas</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="accesorios.html">Accesorios</a></li>
+                      </ul>
+                      <li class="nav-item">
+                        <a class="nav-link" href="registrarse.html">Registrame</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="signin.html">Iniciar sesión</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="Registro-producto.html">Agregar Producto</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="sub.html">Suscribete!</a>
+                      </li>
+                    </li>
+                  </ul>
+                  <form class="d-flex" role="Buscar">
+                    <input class="form-control me-2" type="Buscar" placeholder="Buscar" aria-label="Buscar">
+                    <button class="btn btn-outline-success" type="submit">Buscar</button>
+                  </form>
+                </div>
+              </div>
+            </nav>
+          
 
     <div class="container" style="padding: 1%;">
       <div class="row border-bottom">
@@ -60,20 +78,20 @@
           <h5 class="text-center mt-3 mb-3 d-grid"> DATOS DE ENVÍO</h5>
           <div class="row mt-2">
             <div class="col-md-2 order-md-1">Nombre</div>
-            <div class="col-md-9 order-md-2">
+            <div class="col-md-9 order-md-2 txtNombre">
                 <input type="text" name="txtNombre" id="" class="form-control">
             </div>
           </div>
           <div class="row mt-2">
             <div class="col-md-2 order-md-1">Dirección</div>
             <div class="col-md-9 order-md-2">
-                <input type="text" name="txtNombre" id="" class="form-control">
+                <input type="text" name="txtNombre" id="" class="form-control txtDescripcion">
             </div>
           </div>
           <div class="row mt-2">
             <div class="col-md-2 order-md-1">N° Dpto (Opcional)</div>
             <div class="col-md-9 order-md-2">
-                <input type="text" name="txtNombre" id="" class="form-control">
+                <input type="text" name="txtNombre" id="" class="form-control txtRut" maxlength="4">
             </div>
           </div>
           <div class="row mt-2">
@@ -92,16 +110,16 @@
             <div class="col-md-9 order-md-2">
               <select name="" id="" class="form-select">
                 <option value="0">Seleccionar</option>
-                <option value="1">Plaza Oeste</option>
-                <option value="2" selected>Plaza Vespucio</option>
-                <option value="3">Plaza Norte</option>
+                <option value="1">Maipú</option>
+                <option value="2" selected>Chimbarongo</option>
+                <option value="3">Cerrillos</option>
             </select>
             </div>
           </div>
           <div class="row mt-2">
             <div class="col-md-2 order-md-1">Código postal</div>
-            <div class="col-md-9 order-md-2">
-              <input type="text" class="form-control" maxlength="7" >
+            <div class="col-md-9 order-md-2 ">
+              <input type="text" class="form-control txtEmail" maxlength="7" >
             </div>
           </div>
 
@@ -110,33 +128,33 @@
           <h5 class="text-center mt-3 mb-3 d-grid"> DATOS DE TARJETA</h5>
           <div class="row mt-2">
             <div class="col-md-2 order-md-1">Nombre</div>
-            <div class="col-md-9 order-md-2">
-                <input type="text" name="txtNombre" id="" class="form-control" >
+            <div class="col-md-9 order-md-2 ">
+                <input type="text" name="txtNombre" id="" class="form-control txtNombre" >
             </div>
           </div>
           <div class="row mt-2">
             <div class="col-md-2 order-md-1">N° Tarjeta</div>
-            <div class="col-md-9 order-md-2">
-                <input type="text" name="txtNombre" id="" class="form-control" >
+            <div class="col-md-9 order-md-2 ">
+                <input type="text" name="txtNombre" id="" class="form-control txtRut" >
             </div>
           </div>
           <div class="row mt-2">
             <div class="col-md-2 order-md-1">CCV</div>
-            <div class="col-md-9 order-md-2">
-              <input type="text" class="form-control" maxlength="3">
+            <div class="col-md-9 order-md-2 ">
+              <input type="text" class="form-control txtRut" maxlength="3">
             </div>
           </div>
           <div class="row mt-2">
             <div class="col-md-2 order-md-1">Fecha vencimiento</div>
             <div class="col-md-9 order-md-2">
-              <input type="text" class="form-control" maxlength="5">
+              <input type="text" class="form-control txtVenc" maxlength="5">
             </div>
           </div>
 
         </div>
       </div>
         <div class="d-grid gap-3 col-8 mt-10 mx-auto" style="padding-top: 1%;">
-          <button class="btn btn-primary" type="button"> Realizar Pedido </button>
+          <button class="btn btn-primary" id="btnSesion" type="button"> Realizar Pedido </button>
         </div>
     </div>
   </div>

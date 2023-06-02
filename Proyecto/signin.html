@@ -12,14 +12,16 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
     crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="CSS/form.css">
+  <link rel="stylesheet" href="CSS/form.css">
+  <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+  <script src="JS/verificarDatos.js"></script>
 </head>
 
 <body class="text-center">
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <div class="container-fluid">
       <a class="navbar-brand" href="#">
-        <img src="img/logo-03.jpg" alt="No disponible" width="35px" height="35px">
+        <img src="img/logo-03.jpg" alt="Logo" width="35px" height="35px">
         Pet shop
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
@@ -29,11 +31,9 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="Index.html">Inicio</a>
+            <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="FormRegistro.html">Adopcion</a>
-          </li>
+          <!-- redacted -->
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               Categorias
@@ -47,7 +47,13 @@
               <li><a class="dropdown-item" href="accesorios.html">Accesorios</a></li>
             </ul>
           <li class="nav-item">
-            <a class="nav-link" href="Registro-sesion.html">Registrame</a>
+            <a class="nav-link" href="registrarse.html">Registrame</a>
+          </li>
+          <li class="nav-item">
+            <li class="nav-item">
+              <a class="nav-link" href="Registro-producto.html">Agregar Producto</a>
+            </li>
+            <a class="nav-link" href="sub.html">Suscribete!</a>
           </li>
         </ul>
         <form class="d-flex" role="Buscar">
@@ -58,18 +64,18 @@
     </div>
   </nav>
 
-  <main class="form-signin  m-auto" style="max-width: 330px; padding: 15px;">
+  <main class="form-signin  m-auto col-12 col-md-4" style= "padding: 15px;">
     <form style="margin-top: 20%;">
       <img class="mb-4" src="img/logo-03.jpg" alt="" width="100" height="80">
       <h1 class="h3 mb-3 fw-normal">Iniciar sesión</h1>
 
       <div class="form-floating">
-        <input  type="email" class="form-control bg-dark" id="floatingInput"
+        <input style="color:white;" name="txtEmail"  type="email" class="form-control bg-dark txtEmail" id="floatingInput"
           placeholder="name@example.com">
         <label for="floatingInput" class="text-light">Correo electrónico</label>
       </div>
       <div class="form-floating">
-        <input  type="password" class="form-control bg-dark" id="floatingPassword"
+        <input style="color:white;" name="Contraseña" type="password" class="form-control bg-dark txtPass" id="floatingPassword"
           placeholder="Contraseña">
         <label for="floatingPassword" class="text-light">Contraseña</label>
       </div>
@@ -79,7 +85,7 @@
           <input type="checkbox" value="remember-me"> Recordarme
         </label>
       </div>
-      <button class="w-100 btn btn-lg btn-primary placeholder-wave" type="submit" style="margin-bottom: 1%;">Iniciar
+      <button class="w-100 btn btn-lg btn-primary placeholder-wave" id="btnSesion" type="submit" style="margin-bottom: 1%;">Iniciar
         Sesión</button>
       <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">¿Olvidó su Contraseña? <br> (en progreso no pulsar)</a>
       <p class="mt-5 mb-3 text-body-secondary">© 69 - 2077</p>

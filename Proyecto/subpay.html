@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Subscripción - Pago</title>
+  <link rel="icon" type="image/jpg" href="img/logo-03.jpg">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+  <script src="JS/verificarDatos.js"></script>
+</head>
+
+<body >
+  <div class="container-fluid backgrnd">
+    <div class="bgl">
+    
+      <div class="container">
+          <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+              <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                  <img src="img/logo-03.jpg" alt="Logo" width="35px" height="35px">
+                  Petshop
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                    </li>
+                    <!-- redacted -->
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      $$$
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><button class="dropdown-item clpBtn">CLP</button></li>
+                      <li><button class="dropdown-item dolarBtn">USD</button></li>
+                    </ul>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Productos
+                      </a>
+                      <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="alimentos.html">Alimentos</a></li>
+                        <li><a class="dropdown-item" href="jaulas.html">Jaulas</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="accesorios.html">Accesorios</a></li>
+                      </ul>
+                      <li class="nav-item">
+                        <a class="nav-link" href="registrarse.html">Registrame</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="signin.html">Iniciar sesión</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="Registro-producto.html">Agregar Producto</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="sub.html">Suscribete!</a>
+                      </li>
+                    </li>
+                  </ul>
+                  <form class="d-flex" role="Buscar">
+                    <input class="form-control me-2" type="Buscar" placeholder="Buscar" aria-label="Buscar">
+                    <button class="btn btn-outline-success" type="submit">Buscar</button>
+                  </form>
+                </div>
+              </div>
+            </nav>
+          
+  <div class="container col-12 col-md-4 col-md-3">
+    <div class="align-content-center">
+      <h5 class="text-center mt-3 mb-3 d-grid"> DATOS DE TARJETA</h5>
+      <div class="row mt-2">
+        <div class="col-md-2 order-md-1">Nombre</div>
+        <div class="col-md-9 order-md-2">
+            <input type="text" name="txtNombre" id="" class="form-control txtNombre" >
+        </div>
+      </div>
+      <div class="row mt-2">
+        <div class="col-md-2 order-md-1">N° Tarjeta</div>
+        <div class="col-md-9 order-md-2">
+            <input type="text" name="txtNombre" id="" class="form-control txtRut" >
+        </div>
+      </div>
+      <div class="row mt-2">
+        <div class="col-md-2 order-md-1">CCV</div>
+        <div class="col-md-9 order-md-2">
+          <input type="text" class="form-control txtRut" maxlength="3">
+        </div>
+      </div>
+      <div class="row mt-2">
+        <div class="col-md-2 order-md-1">Fecha vencimiento</div>
+        <div class="col-md-9 order-md-2">
+          <input type="text" class="form-control txtRut" maxlength="5">
+        </div>
+      </div>
+      <h5 class="text-center mt-3 mb-3 d-grid">Datos suscripcion</h5>
+      <div class="row mt-2"></div>
+        <div class="col-md-2 order-md-1">Monto</div>
+        <div class="col-md-9 order-md-2">
+            <input type="text" name="txtNombre" id="" class="form-control txtRut" >
+        </div>
+        <div class="row mt-2 align-content-center">
+        <a href="msgtuja.html" class="col-10 mt-2 btn btn-primary align-bottom btnAceptar" type="button" style="background-color: rgb(151, 76, 76);"> Suscribirse </a>
+      </div>
+      </div>
+      
+  </div>
+</body>
+</html>
